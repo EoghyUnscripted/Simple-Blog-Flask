@@ -27,5 +27,5 @@ For GMAIL users, you simply need to get your app key. All others will need to up
 
 - [Flask Documentation](https://flask.palletsprojects.com/en/2.1.x/) - Documentation for the Flask package
 - [Flask SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/en/2.x/quickstart/) - Documentation for Flask SQLAlchemy
-- [Flask SQLAlchemy - ORM, One-to-many](https://docs.sqlalchemy.org/en/14/orm/basic_relationships.html#one-to-many)
+- [Flask SQLAlchemy - ORM](https://docs.sqlalchemy.org/en/14/orm/basic_relationships.html#one-to-many) - One-to-many relationship
 - [Flask Login](https://flask-login.readthedocs.io/en/latest/#configuring-your-application) - Documentation for the flask_login module
