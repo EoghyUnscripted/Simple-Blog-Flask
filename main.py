@@ -8,15 +8,15 @@ from sqlalchemy.orm import relationship
 from flask_login import UserMixin, login_user, LoginManager, login_required, current_user, logout_user
 from forms import CreatePostForm, RegisterForm, LoginForm, CommentForm, ContactForm, send_email
 from flask_gravatar import Gravatar
-from decouple import config
 from functools import wraps
 from datetime import datetime
+import os
 
 # Initialize Flask App & Config
 app = Flask(__name__)
 
 # Flask App Configurations
-app.config['SECRET_KEY'] = config("FLASK_SECRET_KEY")
+app.config['SECRET_KEY'] = os.environ.get("FLASK_SECRET_KEY")
 login_manager = LoginManager()
 
 # Initialize Gravatar Image Object
@@ -30,7 +30,7 @@ gravatar = Gravatar(app,
                     base_url=None)
 
 # Database Connector
-app.config['SQLALCHEMY_DATABASE_URI'] = config("DATABASE_URL")
+app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get("DATABASE_URL")
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 # Initialize App Modules
