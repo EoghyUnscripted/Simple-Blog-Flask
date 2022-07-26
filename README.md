@@ -14,6 +14,11 @@ In the next update, I will be implementing RESTful API so that users can pull JS
 4. Install [Flask Login](https://pypi.org/project/Flask-Login/)
 5. Install [Flask Gravatar](https://pypi.org/project/Flask-Gravatar/)
 6. Install [Flask CKEditor](https://pypi.org/project/Flask-CKEditor/)
+7. Install [Gunicorn](https://pypi.org/project/gunicorn/)
+8. Sign Up with [GitHub](https://www.github.com)
+9. Sign Up with [Heroku](https://www.heroku.com)
+
+Alternatively, you can install from the `requirements.txt` file.
 
 ### Comments
 
