@@ -23,6 +23,10 @@ Additionally, you will need to modify the `SMTPLIB` section in `forms.py` and co
 
 For GMAIL users, you simply need to get your app key. All others will need to update the function to connect to your host.
 
+#### Heroku Demo
+
+[Blog Demo](https://the-blurb.herokuapp.com)
+
 ### Additional Resources
 
 - [Flask Documentation](https://flask.palletsprojects.com/en/2.1.x/) - Documentation for the Flask package
