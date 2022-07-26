@@ -42,7 +42,6 @@ login_manager.init_app(app)
 # Set Variables
 this_year = datetime.now().year
 
-
 # Flask Login Loader
 @login_manager.user_loader
 def load_user(user_id):
